@@ -1,0 +1,70 @@
+<div class="quastion1" style="height: 500px; width: 500px; background: red;margin-left: 700px;">
+	<img src="4.jpg" style="width: 500px">
+	1. Какая компания разработала КС
+	<div class="answ1" style="height: 80px; width: 500px; background: green;">Bandai</div>
+	<div class="answ2" style="height: 80px; width: 500px; background: yellow;">Valve Corporation</div>
+	<div class="answ3" style="height: 80px; width: 500px; background: purple;">Ubisoft</div>
+</div>
+<div class="quastion2" style="height: 500px; width: 500px; background: red;margin-left: 700px; display: none">
+	<img src="5.jpg" style="width: 500px">
+	2. Какой тип игры не включает себя в КС
+	<div class="answ1" style="height: 80px; width: 500px; background: green;">Спасение заложников</div>
+	<div class="answ2" style="height: 80px; width: 500px; background: yellow;">Заминировать/обезвредить</div>
+	<div class="answ3" style="height: 80px; width: 500px; background: purple;">Прятки с террористами/спецназовцами</div>
+</div>
+<div class="quastion3" style="height: 500px; width: 500px; background: red;margin-left: 700px; display: none">
+	<img src="3.jpg" style="width: 500px">
+	3. Название карты VIP
+	<div class="answ1" style="height: 80px; width: 500px; background: green;">Oilrig</div>
+	<div class="answ2" style="height: 80px; width: 500px; background: yellow;">Torn</div>
+	<div class="answ3" style="height: 80px; width: 500px; background: purple;">Vertigo</div>
+</div>
+<div class="quastion4" style="height: 500px; width: 500px; background: red;margin-left: 700px; display: none">
+	<img src="1.jpg" style="width: 500px">
+	4.В каком порядке разработчики передовали CS:Condition Zero:
+	<div class="answ1" style="height: 80px; width: 500px; background: green;">.Rogue Entertainment, Gearbox Software, Ritual Entertainment, Turtle Rock Studios</div>
+	<div class="answ2" style="height: 80px; width: 500px; background: yellow;">Ritual Entertainment, Turtle Rock Studios,Gearbox Software, Rogue Entertaiment</div>
+	<div class="answ3" style="height: 80px; width: 500px; background: purple;">Turtle Rock Studios,Gearbox Software, Rogue Entertaiment, Ritual Entertainment</div>
+</div>
+<div class="quastion5" style="height: 500px; width: 500px; background: red;margin-left: 700px; display: none">
+	<img src="2.jpg" style="width: 500px">
+	5.Какой режим был вырезан из КС 1.6:
+	<div class="answ1" style="height: 80px; width: 500px; background: green;">Hostage Rescue</div>
+	<div class="answ2" style="height: 80px; width: 500px; background: yellow;">VIP Mode</div>
+	<div class="answ3" style="height: 80px; width: 500px; background: purple;">Escape Mode</div>
+</div>
+<div class="quastion6" style="height: 500px; width: 500px; background: red;margin-left: 700px; display: none">
+	<img src="maxresdefault.jpg" style="width: 500px">
+	<h3>6.Сколько миссии присутствует в CS: Condition Zero Deleted Scenes:</h3>
+	<div class="answ1" style="height: 80px; width: 500px; background: green;">15</div>
+	<div class="answ2" style="height: 80px; width: 500px; background: yellow;">18</div>
+	<div class="answ3" style="height: 80px; width: 500px; background: purple;">20</div>
+</div>
+
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+
+<script>
+    find("quastion1 answ1").click("alert","неправильно");
+    find("quastion1 answ2").click("show","quastion2","правильно");
+    find("quastion1 answ3").click("alert","неправильно");
+
+    find("quastion2 answ1").click("alert","неправильно");
+    find("quastion2 answ2").click("alert","неправильно");
+    find("quastion2 answ3").click("show","quastion3","правильно");
+    
+    find("quastion3 answ1").click("show","quastion4","правильно");
+    find("quastion3 answ2").click("alert","неправильно");
+    find("quastion3 answ3").click("alert","неправильно");
+
+    find("quastion4 answ1").click("show","quastion5","правильно");
+    find("quastion4 answ2").click("alert","неправильно");
+    find("quastion4 answ3").click("alert","неправильно");
+
+    find("quastion5 answ1").click("alert","неправильно");
+    find("quastion5 answ2").click("alert","неправильно");
+    find("quastion5 answ3").click("show","quastion6","правильно");
+
+    find("quastion6 answ1").click("alert","неправильно");
+    find("quastion6 answ2").click("show","quastion1","правильно");
+    find("quastion6 answ3").click("alert","неправильно");
+</script>
